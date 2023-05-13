@@ -190,7 +190,7 @@ Create [`.lintstagedrc.json`]:
 
 ```json
 {
-  "*.ts": ["format", "lint"]
+  "*.ts": ["npm run format", "npm run lint"]
 }
 ```
 
